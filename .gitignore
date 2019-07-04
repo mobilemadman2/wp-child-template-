@@ -1,0 +1,11 @@
+.DS_Store
+.idea
+
+.env
+
+node_modules
+package-lock.json
+
+dist
+
+style.css

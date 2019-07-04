@@ -1,0 +1,8 @@
+@mixin grayscale($val) {
+    -webkit-filter: grayscale($val);
+    filter: grayscale($val);
+}
+
+.grayscale {
+    @include grayscale(100%);
+}

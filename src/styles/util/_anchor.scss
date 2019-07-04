@@ -1,0 +1,8 @@
+a {
+    text-decoration: none !important;
+    transition: $transition;
+}
+
+a.inherit {
+    color: inherit !important;
+}

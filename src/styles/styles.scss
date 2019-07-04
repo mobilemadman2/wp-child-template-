@@ -1,0 +1,15 @@
+/*
+Theme Name: WP Starter (Bootstrap Basic4)
+Template: bootstrap-basic4
+Version: 0.1.0
+Description: Boilerplate for new WordPress child theme
+Author: Erik Larson
+*/
+
+// import SCSS partials
+@import 'base/index';
+@import 'mixins/index';
+@import 'util/index';
+@import 'layout/index';
+@import 'modules/index';
+@import 'cpt/index';

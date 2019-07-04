@@ -1,0 +1,60 @@
+.owl-carousel {
+    .item {
+        padding: 20px 100px;
+
+        @media (max-width: 768px) {
+            padding: 20px;
+        }
+    }
+
+    .owl-nav {
+        margin: 0;
+
+        button {
+            @include align(50px, center, center);
+
+            position: absolute;
+            width: 50px;
+            background-color: transparent !important;
+            outline: none;
+            border-radius: 0 !important;
+            border-top: 3px solid black !important;
+            border-left: 3px solid black !important;
+
+            span {
+                display: none;
+            }
+        }
+
+        .owl-prev {
+            @include rotate(-45deg);
+
+            top: calc(50% - 25px);
+            left: 50px;
+        }
+
+        .owl-next {
+            @include rotate(135deg);
+
+            top: calc(50% - 25px);
+            right: 50px;
+        }
+
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    .owl-dots {
+        @include align(100px, center, center);
+
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+
+        .owl-dot {
+            outline: none;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+@mixin align($height, $h-align, $v-align) {
+    display: flex;
+    justify-content: $h-align;
+    align-items: $v-align;
+    height: $height;
+}
+
+.bullseye {
+    @include align(auto, center, center);
+}
